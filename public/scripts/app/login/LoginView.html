@@ -1,0 +1,13 @@
+<div>
+    <h1>Logon</h1>
+    <form data-bind="submit:post">
+        <div class="form-group">
+            <input type="text" data-bind="value:user.pass2" class="form-control" placeholder="username: admin" required>
+        </div>
+        <div class="form-group">
+            <input data-bind="value:user.pass" type="password" id="pass" class="form-control" name="password" placeholder="Password: password" required>
+        </div>
+
+        <button type="submit" class="btn btn-default btn-lg">Login</button>
+    </form>
+</div>

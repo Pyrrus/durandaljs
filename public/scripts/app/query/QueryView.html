@@ -1,0 +1,27 @@
+<h1>All Incidents</h1>
+
+<div>
+
+  <table class="table table-hover">  
+      <thead>
+          <tr>
+            <th>Reference Number</th>
+            <th>Summary</th>
+            <th>Current Status</th>
+            <th>Logged</th>
+            <th>End User</th>
+            <th>Minutes to Breath</th>
+          </tr>
+      </thead>
+      <tbody data-bind="foreach: data">
+          <tr>
+              <td data-bind="text: reference"></td>
+              <td data-bind="text: summary"></td>
+              <td data-bind="text: current"></td>
+              <td data-bind="text: logged"></td>
+              <td data-bind="text: end"></td>
+              <td data-bind="text: min"></td>
+          </tr>
+      </tbody>
+  </table>  
+</div>

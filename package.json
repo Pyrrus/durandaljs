@@ -1,0 +1,13 @@
+{
+  "name": "durandal",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.5",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-local": "*"
+  }
+}
